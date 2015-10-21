@@ -1,4 +1,4 @@
-//
+/
 //  CLTokenInputViewController.m
 //  CLTokenInputView
 //
@@ -130,7 +130,6 @@
     [self.view addConstraint:self.tableViewTopLayoutConstraint];
     [self.view layoutIfNeeded];
 }
-
 
 #pragma mark - UITableViewDataSource
 

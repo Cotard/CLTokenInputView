@@ -26,12 +26,17 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 /**
- *  Called when the text field begins editing
+ *  Called when the text field ends editing
  */
 - (void)tokenInputViewDidEndEditing:(CLTokenInputView *)view;
 
 /**
- *  Called when the text field ends editing
+ *  Called when the text field asks if he should begin editing
+ */
+- (void)tokenInputViewShouldBeginEditing:(CLTokenInputView *)view;
+
+/**
+ *  Called when the text field begins editing
  */
 - (void)tokenInputViewDidBeginEditing:(CLTokenInputView *)view;
 
